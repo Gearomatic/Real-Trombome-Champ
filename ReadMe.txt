@@ -13,7 +13,7 @@ Trombone Champ Controler V04.0
   
 
   The mouse movement is calibrated for a 1440X2560 monitor. You will need to modify the code to fit other screen sizes.
-  See the "Serial.println((distance*2));" at the end, Modify that multiplier (default is 4) Try 2 for 1080 Height screens?
+  See the "Serial.println((distance*4));" at the end, Modify that multiplier (default is 4) Try 2 for 1080 Height screens?
 
   WARNING: When you use the Mouse.move() command (in python in this case), the Arduino/python takes over your
   mouse! Make sure you have control before you use the mouse commands. Flipping the switch on pin 5 to ground should stop the flow of data to python and give you mouse control back
